@@ -34,6 +34,8 @@
   });
 
 
+  var x=0;
+
   module.controller("statusController", function(){
     var status = this;
 
