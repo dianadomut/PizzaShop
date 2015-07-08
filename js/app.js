@@ -48,7 +48,10 @@
     },{
       num:3,
       name:"Deliver Pie"
-    }];
+    },{
+      num:4,
+      name:"Collect money"
+      }];
     status.currentStep = 2;
 
   });
