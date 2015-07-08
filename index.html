@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza shop</title>
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
+  
+  <link rel="stylesheet" href="css/site.css" type="text/css">
+</head>
+<body ng-app="pizzaApp">
+<div ng-controller="orderController as order">
+
+  <h1>Pizza Shop</h1>
+
+  <div class="menu">
+    <ul>
+      <li>Hello</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <p>The best pizza voted in <strong>Cluj</strong></p>
+  <div>{{order.count}}</div>
+  <div><a href="#/status" class="btn btn-sm">Status</a></div>
+  <pizza-status-bar></pizza-status-bar>
+</div>
+
+
+
+
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="lib/angular/angular.min.js"></script>
+<script src="lib/angular-route/angular-route.min.js"></script>
+
+<script src="js/animal.js" type="application/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

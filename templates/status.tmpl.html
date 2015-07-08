@@ -1,0 +1,5 @@
+<div><a href="#/" class="btn btn-sm">Back</a> </div>
+<div ng-repeat="step in status.steps">
+  {{step.name}}
+  <span ng-show="step.num == status.currentStep">(Current)</span>
+</div>
