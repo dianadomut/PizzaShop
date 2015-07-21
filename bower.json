@@ -1,0 +1,32 @@
+{
+  "name": "PizzaShop",
+  "version": "1.0",
+  "homepage": "https://github.com/dianadomut/PizzaShop",
+  "authors": [
+    "diana.domut <diana_domut@yahoo.com>"
+  ],
+  "description": "A pizza test project",
+  "main": "index.html",
+  "keywords": [
+    "bower",
+    "angular",
+    "webstorm"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-routing": "~0.1.2",
+    "bootstrap": "~3.3.5",
+    "lodash": "~3.10.0"
+  },
+  "devDependencies": {
+    "jasmine": "~2.3.4"
+  }
+}
